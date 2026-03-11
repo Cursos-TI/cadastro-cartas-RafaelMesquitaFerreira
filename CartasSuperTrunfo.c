@@ -1,5 +1,5 @@
 
-   #include <stdio.h>
+#include <stdio.h>
 
 struct carta //criando o modelo das cartas 
 
@@ -38,7 +38,7 @@ dos casos que satisfazem a condição dos parenteses*/
 
 {
 	
-	printf("\n-------------Cadastrando carta: %d -------------\n", i + 1); /*i+1 para ser 1
+	printf("\n-------------Cadastrando carta: %d-------------\n", i + 1); /*i+1 para ser 1
 	pois a contagem inicia em 0*/
 	
 	printf("Digite o codigo do pais: ");
@@ -69,6 +69,7 @@ dos casos que satisfazem a condição dos parenteses*/
     
     do
 {
+
 		printf("\n-------------Consulta de cartas SUPER TRUNFO-------------\n");
 		printf("Cartas disponiveis: \n");
 		for(i = 0; i < 3; i++)
@@ -102,6 +103,7 @@ dos casos que satisfazem a condição dos parenteses*/
 		
 	}
 
+
 }
 
       if (!encontrado) //mostra que o código não foi encontrado
@@ -120,6 +122,6 @@ de 0 ele finaliza o programa*/
 
    printf("\nPrograma encerrado, ate breve!\n");
    
-   return 0; 
+   return 0;
+
 }
-} 
